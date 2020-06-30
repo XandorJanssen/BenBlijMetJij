@@ -1,0 +1,219 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+@font-face {
+    font-family:'DancingScript';
+    src: url('/fonts/DancingScript-Regular.ttf') format('ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'DancingScript';
+    src: url('/fonts/DancingScript-Regular.oet'); /* IE9 Compat Modes */
+    src: url('/fonts/DancingScript-Regular.oet?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/fonts/DancingScript-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('/fonts/DancingScript-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('/fonts/DancingScript-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('/fonts/DancingScript-Regular.svg#DancingScript') format('svg'); /* Legacy iOS */
+  }
+
+body {
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .headerCenter{
+      margin-left: auto;
+  }
+
+  .headerHeight{
+      padding-top: 20px !important;
+      padding-bottom: 20px !important;
+  }
+
+  .headerLogoCenter{
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    }
+
+  .fancy
+  {
+    letter-spacing: normal !important;
+    font-family: DancingScript;
+  }
+
+  .fancy-size
+  {
+    font-size: xx-large;
+    text-align: center;
+  }
+  .fancy-size-title
+  {
+      font-size: 50px !important;
+  }
+
+
+
+  html {
+    overflow-y: scroll !important;
+  }
+
+ /* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+  /* Featurettes
+  ------------------------- */
+
+  .featurette-divider {
+    margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+  }
+
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    margin-top: 2rem;
+  }
+
+  .featurette
+    {
+      margin-bottom: 2rem;
+    }
+
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+
+  @media (min-width: 40em) {
+
+    .featurette-heading {
+      font-size: 50px;
+    }
+
+
+  }
+
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+
+    }
+
+    // .featurette
+    // {
+    //   margin-bottom: 5rem;
+    // }
+  }
+
+
+  @media (max-width: 767px) {
+
+    .card{
+      margin-bottom: 30px;
+    }
+
+  }
+
+
+  //xandor zelf #trots
+
+  .boven-aanpassing
+  {
+    margin-top: 2rem !important;
+  }
+
+
+  .nav-link
+  {
+    font-size: large;
+  }
+
+  .navbar-brand
+  {
+    font-size: x-large;
+  }
+
+  .DarkGreen-background
+  {
+    background-color: $businessCard;
+  }
+
+  .row-left
+  {
+    margin-left: 0px !important;
+  }
+
+  .row-right
+  {
+    margin-right: 0px !important;
+  }
+
+  .rotateimg
+  {
+    transform: rotate(-50deg);
+  }
+
+
+  .conatainer-height
+  {
+    margin-top: 100px;
+  }
+
+  .gnw-map-service {
+    height: 750px;
+}
+
+
+
+.header-test {
+  background-image: url("images/DatHetRozeMeerAanDeZijkantZit.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  //opacity: 0.7;
+
+  background-blend-mode: multiply;
+  background-color:  $businessCard;
+ }
+
+ .header-test2 {
+
+  background-image: url("images/test2.jpg");
+  background-blend-mode:  difference;
+  background-color: grey;
+
+ }
+
+ .header-test3 {
+
+  background-image: url("images/test31.jpg");
+  background-blend-mode: soft-light;
+  background-color:  $businessCard;
+
+ }
+
+ .header-test4 {
+
+  background-image: url("images/test4.png");
+  background-blend-mode:  difference;
+  background-color: grey;
+
+ }
