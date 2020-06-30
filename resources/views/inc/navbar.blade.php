@@ -3,7 +3,7 @@
 
       <a class="navbar-brand fancy" href="/">
         Ben blij met jij
-        <img src="/images/logo.png" width="40" height="40" class="d-inline-block align-top" alt="Ben blij met jij">
+        <img src="/images/Logo.png" width="40" height="40" class="d-inline-block align-top" alt="Ben blij met jij">
       </a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
