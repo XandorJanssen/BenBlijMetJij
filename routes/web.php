@@ -12,8 +12,8 @@
 */
 
 Route::get('/', 'PagesController@index');
-Route::get('/kinderen', 'PagesController@childeren');
-Route::get('/ouders', 'PagesController@parents');
+Route::get('/behandelingen', 'PagesController@treatments');
+Route::get('/tarieven', 'PagesController@prices');
 Route::get('/overons', 'PagesController@about');
 Route::get('/contact', 'PagesController@contact');
 

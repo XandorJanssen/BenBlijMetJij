@@ -16,14 +16,14 @@ class PagesController extends Controller
         return view('pages.about');
     }
 
-    public function childeren()
+    public function treatments()
     {
-        return view('pages.childeren');
+        return view('pages.treatments');
     }
 
-    public function parents()
+    public function prices()
     {
-        return view('pages.parents');
+        return view('pages.prices');
     }
 
     public function contact()

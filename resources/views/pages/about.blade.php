@@ -2,26 +2,38 @@
 
 @section('content')
 
-<div class="jumbotron p-4 p-md-5 text-white rounded header-test4  boven-aanpassing shadow-sm">
+    <div class="jumbotron p-4 p-md-5 text-white rounded header-test4  boven-aanpassing shadow-sm">
 
-    <div class="col-md-8 px-0 " >
-      <h1 class="display-4 fancy" >Over ons</h1>
-      <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+        <div class="col-md-8 px-0 ">
+            <h1 class="display-4 fancy">Over ons</h1>
+            {{-- <p class="lead my-3">Multiple lines of text that form the lede, informing new
+                readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+            --}}
+        </div>
     </div>
-</div>
 
 
+    <hr>
 
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h1>Wie wij zijn</h1>
+            <p>
+                Wij zijn Willianne en Vera van Schaik, moeder en dochter, beiden hoogsensitief (HSP).
+                Wij zijn ervan overtuigd dat alles met elkaar verbonden is en kijken naar het grotere geheel (holistische
+                benadering).
+                Samen hebben wij een praktijk opgericht om volwassenen en kinderen te helpen hun eigen kracht te ervaren.
+                Juist als het even niet gaat, is het belangrijk om op zoek te gaan naar de kracht in jezelf.
+                Wij weten als moeder en dochter maar al te goed hoe sterk ouders en kinderen met elkaar verbonden zijn en
+                hoe feilloos ze elkaar aanvoelen.
+                Hierdoor kun je elkaar, vaak onbewust, zowel positief als negatief beïnvloeden.
+                Door behandeling van zowel ouder als kind kan er snel resultaat geboekt worden. Natuurlijk kun je als
+                individu ook bij ons terecht.
+                Wij maken gebruik van het lezen van (kinder)tekeningen, magnetiseren, aromatherapie en (chakra)massage.
 
+            </p>
 
-<hr>
-
-<div class="card shadow-sm">
-<div class="card-body">
-    <h1>Body</h1>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</p>
-
-</div>
-</div>
+        </div>
+    </div>
 
 @endsection
