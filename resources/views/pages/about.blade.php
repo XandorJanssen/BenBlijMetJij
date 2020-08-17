@@ -6,12 +6,10 @@
 
         <div class="col-md-8 px-0 ">
             <h1 class="display-4 fancy">Over ons</h1>
-            {{-- <p class="lead my-3">Multiple lines of text that form the lede, informing new
-                readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-            --}}
+            <p class="lead my-3">JIJ staat bij ons centraal. Vandaar dat dit verwerkt is in onze bedrijfsnaam.</p>
+
         </div>
     </div>
-
 
     <hr>
 

@@ -77,21 +77,16 @@
 
         <h1><a class="anchor" name="Tekeningen">Tekeningen</h1>
         <p>
-            Kinderen zijn nog puur, leven vanuit hun gevoel en staan dicht bij wie ze werkelijk zijn.
-            Ze staan nog erg open voor invloeden van buitenaf en kunnen vaak nog niet aan voelen of een gevoel van
-            zichzelf komt of van buitenaf.
-            Ook is het voor kinderen moeilijk om uit te spreken hoe ze zich voelen omdat ze vaak nog niet de juiste
-            woordenschat hebben.
-            Zelfs met de juiste woordenschat blijft het moeilijk om gevoelens te omschrijven, voor veel volwassen is dit
-            ook zo.
-            Als deze gevoelens niet verwerkt worden, zal het verdringt worden.
-            Op de achtergrond blijven deze echter aanwezig en kan het zijn/haar leven blijven beïnvloeden.
-            Omdat kinderen nog niet de vaardigheid hebben om hun gevoelens in woorden uit te drukken, komen ze in
-            emoties, in lichamelijke reacties (bijv. hoofd- en buikpijn) en in gedrag naar buiten.
-            Hierbij kan het lezen van tekenen helpen.
-            Kinderen laten hier vaak zien wat zich bezighoudt, het verteld wat over de persoonlijkheid van een kind en
-            het geeft een kijkje in de ziel.
-            Het tekenen geeft kinderen de kans om dingen te verwerken en om dingen een plek te geven.
+            Kinderen zijn nog puur; leven vanuit hun gevoel en staan dicht bij wie ze werkelijk zijn.
+            Ze staan nog erg open voor invloeden van buitenaf en kunnen vaak nog niet beoordelen of een gevoel van henzelf komt of van buitenaf.
+            Ook is het voor kinderen moeilijk om uit te spreken hoe ze zich voelen omdat ze vaak nog niet de juiste woordenschat hebben.
+            Zelfs voor volwassenen met de juiste woordenschat is het vaak nog moeilijk om gevoelens te omschrijven.
+            Als gevoelens niet verwerkt worden, zullen ze verdrongen worden.
+            Op de achtergrond blijven deze echter aanwezig en kan het levenslang van invloed blijven.
+            Omdat kinderen nog niet de vaardigheid hebben hun gevoelens in woorden uit te drukken, komen deze in emoties; in lichamelijke reacties (bijv. hoofd- en buikpijn) en in gedrag naar buiten.
+            Hierbij kan het lezen van tekeningen helpen.
+            Kinderen laten hier vaak zien wat hen bezighoudt, het zegt iets over de persoonlijkheid van een kind en het geeft een kijkje in de ziel.
+            Het tekenen geeft kinderen de kans om gebeurtenissen te verwerken en deze een plek te geven.
             Met de informatie die uit een tekening gehaald wordt kunnen kinderen maar ook volwassen geholpen worden.
             Je tekent onbewust, niet toevallig!
         </p>
@@ -103,10 +98,9 @@
         </p>
 
         <p>
-            Opmerking: De enige die (onbewust) weet wat er werkelijk met een tekening bedoelt wordt, is de tekenaar
-            zelf.
-            Er wordt al heel veel jaren onderzoek gedaan naar de psychologische betekenis van tekeningen, hierdoor kan
-            er veel van een tekening toch geanalyseerd worden.
+            Opmerking: De enige die (onbewust) weet wat er werkelijk met een tekening bedoeld wordt, is de tekenaar zelf.
+            Er wordt al heel veel jaren onderzoek gedaan naar de psychologische betekenis van tekeningen.
+            Met deze wetenschap kan er toch nog veel van een tekening geanalyseerd worden.
         </p>
 
 
@@ -114,13 +108,13 @@
 
         <h1><a class="anchor" name="Magnetiseren">Magnetiseren</h1>
         <p>
-            Met magnetiseren, of ook wel energetisch behandelen genoemd, wordt oude, overtollige en negatieve energie
-            afgevoerd en vervangen door nieuwe, schone en positieve energie.
+            Met magnetiseren (ook wel energetisch behandelen genoemd) wordt oude, overtollige en negatieve energie afgevoerd en vervangen door nieuwe, schone en positieve energie.
             Het doel is om het zelfhelend vermogen van lichaam en geest te activeren en te stimuleren.
-            Het is een eeuwenoude natuurgeneeswijze die altijd al, maar vaak ook nog door iedereen onbewust, wordt
-            toegepast.
-            Denk maar eens aan een kind dat zijn knie stoot en een volwassene er automatisch over heen wrijft om de pijn
-            te verzachten.
+            Bij het magnetiseren zullen de handen regelmatig stil liggen op je lichaam.
+            Door deze manier van behandelen kom jij in een diepe ontspanning meer tot jezelf.
+            Meer tot wie jij diep van binnen bent en voel jij je meer in balans.
+            Het is een eeuwenoude natuurgeneeswijze die altijd al, maar vaak ook nog door iedereen onbewust, wordt toegepast.
+            Denk maar eens aan een kind dat zijn knie stoot en zelf of een volwassene er automatisch over heen wrijft om de pijn te verzachten.
         </p>
 
         <hr class="featurette-divider">
@@ -134,7 +128,7 @@
             psychisch.
             De essentiële oliën worden door de huid of door inademing opgenomen en komen terecht in de bloedbaan.
             Op die manier hebben essentiële oliën hun uitwerking op het gehele lichaam.
-            Tijdens al onze behandelingen wordt gebruik gemaakt van armotherapie.
+            Tijdens al onze behandelingen wordt gebruik gemaakt van aromatherapie.
         </p>
 
         <hr class="featurette-divider">
@@ -144,6 +138,9 @@
             Massage maakt sterk en minder kwetsbaar.
             Door een massage wordt het immuunsysteem versterkt, stress neemt af en er treedt diepe ontspanning op.
             Masseren is vooral heilzaam voor drukke kinderen of voor iedereen die uit balans is geraakt.
+            Zowel tijdens als ná de energetische massage kunnen er verschillende emoties naar boven komen.
+            Dit is niet erg, juist goed, want dan weet je dat het werkt. Ook kun je warmte, kou of tintelingen ervaren.
+            Deze verdwijnen vanzelf weer.
         </p>
         <p>
 

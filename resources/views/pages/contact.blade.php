@@ -50,7 +50,7 @@
                 @map([
                 'lat' => 51.585730,
                 'lng' => 5.350840,
-                'zoom' => 12,
+                'zoom' => 13,
                 'markers' => [
                 [
                 'title' => 'Ben Blij Met Jij',
@@ -80,7 +80,7 @@
                         </li>
 
                         <li>
-                            <p><i class="fas fa-envelope"></i> info@benblijmetjij.nl</p>
+                            <p><i class="fas fa-envelope"></i> benblijmetjij@gmail.com</p>
                         </li>
                     </ul>
 
