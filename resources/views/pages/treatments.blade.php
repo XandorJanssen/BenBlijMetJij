@@ -19,8 +19,10 @@
         <div class="card-body">
             <h5 class="card-title">Tekeningen</h5>
             <p class="card-text">
-                This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.
+                Kinderen en volwassenen laten in tekeningen zien wat hen bezighoudt,
+                het zegt iets over hun persoonlijkheid en geeft een kijkje in de ziel.
+                Met de informatie die uit een tekening gehaald wordt kunnen kinderen maar ook volwassenen geholpen worden.
+                Je tekent onbewust, niet toevallig!
             </p>
         </div>
         <div class="card-footer">
@@ -33,7 +35,9 @@
         <div class="card-body">
             <h5 class="card-title">Magnetiseren</h5>
             <p class="card-text">
-                This card has supporting text below as a natural lead-in to additional content.
+                Met magnetiseren wordt oude, overtollige en negatieve energie afgevoerd en vervangen door nieuwe,
+                schone en positieve energie.
+                 Het doel is om het zelfhelend vermogen van lichaam en geest te activeren en te stimuleren.
             </p>
         </div>
         <div class="card-footer">
@@ -46,8 +50,9 @@
         <div class="card-body">
             <h5 class="card-title">Aromatherapie</h5>
             <p class="card-text">
-                This is a wider card with supporting text below as a natural lead-in to additional
-                content. This card has even longer content than the first to show that equal height action.
+                Door middel van essentiële oliën wordt de gemoedstoestand en gezondheid beïnvloed.
+                De essentiële oliën worden door de huid of door inademing opgenomen en komen terecht in de bloedbaan.
+                Op die manier hebben essentiële oliën hun uitwerking op het gehele lichaam.
             </p>
         </div>
         <div class="card-footer">
@@ -59,8 +64,11 @@
         <img src="/images/kinderen3.jpg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Massage</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text">
+                Massage maakt sterk en minder kwetsbaar.
+                Door een massage wordt het immuunsysteem versterkt, stress neemt af en er treedt diepe ontspanning op.
+                Masseren is vooral heilzaam voor drukke kinderen of voor iedereen die uit balans is geraakt.
+            </p>
 
         </div>
 
