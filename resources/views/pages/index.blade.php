@@ -9,8 +9,11 @@
         </div>
 
         <div class="col-md-8 px-0 headerCenter">
-            <p class="lead my-3 fancy fancy-size"><span class="fancy-size-title">Jij</span> mag zijn zoals je bent, om
-                te worden wie je bent maar nog niet kunt zijn. Je mag het worden op jouw manier, in jouw tijd.</p>
+            <p class="lead my-3 fancy fancy-size">
+                <span class="fancy-size-title">Jij</span>
+                mag zijn zoals je bent, om
+                te worden wie je bent maar nog niet kunt zijn. Je mag het worden op jouw manier, in jouw tijd.
+            </p>
         </div>
     </div>
 </div>
