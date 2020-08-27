@@ -61,34 +61,34 @@
                     <tr>
                         <th scope="row">Kennismaking + tekenen + tekening analyse* </th>
                         <td >45 min</td>
-                        <td>€ 30,-</td>
+                        <td>€&nbsp;30,-</td>
                     </tr>
                     <tr>
                         <th scope="row">Tekenen + kindermassage 30 min + tekening analyse* </th>
                         <td>75 min</td>
-                        <td>€ 35,-</td>
+                        <td>€&nbsp;35,-</td>
                     </tr>
                     <tr>
                         <th scope="row">Kindermassage 30 min</th>
                         <td>45 min</td>
-                        <td>€ 20,-</td>
+                        <td>€&nbsp;20,-</td>
                     </tr>
                     <tr>
                         <th scope="row">Tekenen + tekening analyse*</th>
                         <td>30 min</td>
-                        <td>€ 20,-</td>
+                        <td>€&nbsp;20,-</td>
                     </tr>
 
                     <tr>
                         <th scope="row">Ontspanningsmassage (intuïtief) volwassenen 30 minuten:</th>
                         <td>45 min</td>
-                        <td>€ 20,-</td>
+                        <td>€&nbsp;20,-</td>
                     </tr>
 
                     <tr>
                         <th scope="row">Massage + magnetiseren + chakra balans  60 minuten:</th>
                         <td>75 min</td>
-                        <td>€ 40,-</td>
+                        <td>€&nbsp;40,-</td>
                     </tr>
                 </tbody>
             </table>
