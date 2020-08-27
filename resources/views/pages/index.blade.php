@@ -30,7 +30,7 @@
             </p>
         </div>
         <div class="card-footer">
-            <a href="#Tekeningen">Lees meer...</a>
+            <a href="{{ URL::route('behandelingen') }}#Tekeningen">Lees meer...</a>
         </div>
     </div>
 
@@ -45,7 +45,7 @@
             </p>
         </div>
         <div class="card-footer">
-            <a href="#Magnetiseren">Lees meer...</a>
+            <a href="{{ URL::route('behandelingen') }}#Magnetiseren">Lees meer...</a>
         </div>
     </div>
 
@@ -60,7 +60,7 @@
             </p>
         </div>
         <div class="card-footer">
-            <a href="#Aromatherapie">Lees meer...</a>
+            <a href="{{ URL::route('behandelingen') }}#Aromatherapie">Lees meer...</a>
         </div>
     </div>
 
@@ -77,7 +77,7 @@
         </div>
 
         <div class="card-footer">
-            <a href="#Massage">Lees meer...</a>
+            <a href="{{ URL::route('behandelingen') }}#Massage">Lees meer...</a>
         </div>
     </div>
 </div>
