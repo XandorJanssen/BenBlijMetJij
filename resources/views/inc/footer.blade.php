@@ -5,8 +5,12 @@
         <p class="float-right">
             <a href="#">Terug naar het begin</a>
         </p>
-        <p>Ben blij met jij &copy; BenBlijMetJij {{ now()->year }}</p>
-        <p>Vragen, meer informatie nodig of een afspraak maken? Neem <a href="/contact">contact</a> met ons op, we helpen je
-            graag persoonlijk verder.</p>
+        <p> Copyright &copy; {{ now()->year }}, BenBlijMetJij, alle rechten voorbehouden. </p>
+
+        <p>
+            Vragen of een afspraak maken? Neem <a href="/contact">contact</a> met ons op, we helpen u
+            graag persoonlijk verder.
+        </p>
+        <p>Kvk 77206320</p>
     </div>
 </footer>

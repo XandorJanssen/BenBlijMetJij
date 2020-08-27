@@ -2,69 +2,69 @@
 
 @section('content')
 
-    <h1>Contact</h1>
+<h1>Contact</h1>
 
-    <div class="row">
+<div class="row">
 
-        <div class="col-md-6">
+    <div class="col-md-6">
 
-            <form>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="inputName" class="">Naam</label>
-                        <input type="text" class="form-control" id="inputName" placeholder="Jan Janssen">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="inputPhone">*Telefoon nummer </label>
-                        <input type="text" class="form-control" id="inputPhone" placeholder="06-XXXXXXXX">
-                    </div>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputName" class="">Naam</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Jan Janssen">
                 </div>
-                <div class="form-group">
-                    <label for="inputEmail">Email</label>
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Plaat hier uw email-adres">
+                <div class="form-group col-md-6">
+                    <label for="inputPhone">*Telefoon nummer </label>
+                    <input type="text" class="form-control" id="inputPhone" placeholder="06-XXXXXXXX">
                 </div>
-                <div class="form-group">
-                    <label for="inputSubject">Onderwerp</label>
-                    <input type="text" class="form-control" id="inputSubject" placeholder="Vraag, afspraak">
-                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Plaat hier uw email-adres">
+            </div>
+            <div class="form-group">
+                <label for="inputSubject">Onderwerp</label>
+                <input type="text" class="form-control" id="inputSubject" placeholder="Vraag, afspraak">
+            </div>
 
-                <div class="form-group">
-                    <label for="inputMessage">Bericht</label>
-                    <textarea class="form-control" id="inputMessage" placeholder="Type hier uw bericht"
-                        rows="12"></textarea>
-                </div>
-
-
-                <button type="Versturen" class="btn btn-primary">Versturen</button>
-            </form>
-
-            <small class="form-text text-muted">
-                Velden met een * zijn optioneel
-            </small>
-        </div>
-
-        <div class="col-md-4">
+            <div class="form-group">
+                <label for="inputMessage">Bericht</label>
+                <textarea class="form-control" id="inputMessage" placeholder="Type hier uw bericht"
+                    rows="12"></textarea>
+            </div>
 
 
-            <div class="card mb-4 shadow-sm">
-                @map([
-                'lat' => 51.585730,
-                'lng' => 5.350840,
-                'zoom' => 13,
-                'markers' => [
-                [
-                'title' => 'Ben Blij Met Jij',
-                'lat' => 51.585730,
-                'lng' => 5.350840,
-                'popup' => '<h5>Ben Blij Met Jij</h5>
-                <p>De Volder 9, 5283 ZA, Boxtel</p>',
-                ],
-                ],
-                ])
+            <button type="Versturen" class="btn btn-primary">Versturen</button>
+        </form>
+
+        <small class="form-text text-muted">
+            Velden met een * zijn optioneel
+        </small>
+    </div>
+
+    <div class="col-md-4">
 
 
-                <div class="card-body">
-                    <p class="card-text">
+        <div class="card mb-4 shadow-sm">
+            @map([
+            'lat' => 51.585730,
+            'lng' => 5.350840,
+            'zoom' => 13,
+            'markers' => [
+            [
+            'title' => 'Ben Blij Met Jij',
+            'lat' => 51.585730,
+            'lng' => 5.350840,
+            'popup' => '<h5>Ben Blij Met Jij</h5>
+            <p>De Volder 9, 5283 ZA, Boxtel</p>',
+            ],
+            ],
+            ])
+
+
+            <div class="card-body">
+                <p class="card-text">
 
 
                     <ul class="list-unstyled mb-0">
@@ -85,22 +85,11 @@
                     </ul>
 
 
-                    </p>
-                </div>
+                </p>
             </div>
-
-
-
-
-
         </div>
     </div>
-
-
-
-    </div>
-
-
-
+</div>
+</div>
 
 @endsection

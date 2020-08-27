@@ -196,25 +196,32 @@ body {
 
  .header-test2 {
 
-  background-image: url("images/test2.jpg");
-  background-blend-mode:  difference;
+  background-image: url("images/behan.jpg");
+  background-blend-mode:  soft-light;
   background-color: grey;
+  background-size: 100%;
+  background-position-y: center;
 
  }
 
  .header-test3 {
 
-  background-image: url("images/test31.jpg");
-  background-blend-mode: soft-light;
-  background-color:  $businessCard;
+    background-image: url("images/vlag.jpg");
+    background-blend-mode:  soft-light;
+    background-color: grey;
+    background-size: 100%;
+    background-position-y: top;
 
  }
 
+
  .header-test4 {
 
-  background-image: url("images/test4.png");
-  background-blend-mode:  difference;
-  background-color: grey;
+    background-image: url("images/tafel.jpg");
+    background-blend-mode:  soft-light;
+    background-color: grey;
+    background-size: 100%;
+    background-position-y: center;
 
  }
 

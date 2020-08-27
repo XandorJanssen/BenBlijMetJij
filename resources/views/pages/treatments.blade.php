@@ -12,7 +12,9 @@
 <div class="card shadow-sm">
     <div class="card-body">
 
-        <h1><a class="anchor" name="Tekeningen">Tekeningen</h1>
+
+
+        <h1><a class="anchor" name="Tekeningen"></a>Tekeningen</h1>
         <p>
             Kinderen zijn nog puur; leven vanuit hun gevoel en staan dicht bij wie ze werkelijk zijn.
             Ze staan nog erg open voor invloeden van buitenaf en kunnen vaak nog niet beoordelen of een gevoel van
@@ -28,7 +30,7 @@
             Kinderen laten hier vaak zien wat hen bezighoudt, het zegt iets over de persoonlijkheid van een kind en het
             geeft een kijkje in de ziel.
             Het tekenen geeft kinderen de kans om gebeurtenissen te verwerken en deze een plek te geven.
-            Met de informatie die uit een tekening gehaald wordt kunnen kinderen maar ook volwassen geholpen worden.
+            Met de informatie die uit een tekening gehaald wordt kunnen kinderen maar ook volwassenen geholpen worden.
             Je tekent onbewust, niet toevallig!
         </p>
         <p>
@@ -48,7 +50,7 @@
 
         <hr class="featurette-divider">
 
-        <h1><a class="anchor" name="Magnetiseren">Magnetiseren</h1>
+        <h1><a class="anchor" name="Magnetiseren"></a>Magnetiseren</h1>
         <p>
             Met magnetiseren (ook wel energetisch behandelen genoemd) wordt oude, overtollige en negatieve energie
             afgevoerd en vervangen door nieuwe, schone en positieve energie.
@@ -64,9 +66,9 @@
 
         <hr class="featurette-divider">
 
-        <h1><a class="anchor" name="Aromatherapie">Aromatherapie</h1>
+        <h1><a class="anchor" name="Aromatherapie"></a>Aromatherapie</h1>
         <p>
-            Met aromatherapie (geurentherapie) worden essentiële oliën gebruikt ter bevordering van de gezondheid en
+            Met aromatherapie (geurentherapie) worden essentiële oliën gebruikt ter beïnvloeding van de gezondheid en
             gemoedstoestand.
             Denk aan herinneringen die verbonden zijn met geuren.
             De therapeutische eigenschappen van deze oliën hebben invloed op het menselijk lichaam, zowel fysiek als
@@ -78,7 +80,7 @@
 
         <hr class="featurette-divider">
 
-        <h1><a class="anchor" name="Massage">Massage</h1>
+        <h1><a class="anchor" name="Massage"></a>Massage</h1>
         <p>
             Massage maakt sterk en minder kwetsbaar.
             Door een massage wordt het immuunsysteem versterkt, stress neemt af en er treedt diepe ontspanning op.
@@ -102,6 +104,7 @@
             en/of psychische klachten afnemen of verdwijnen.
             Wanneer de chakra’s in balans zijn, zorgen ze ervoor dat je energiek en evenwichtig kunt leven.
         </p>
+
 
     </div>
 </div>
