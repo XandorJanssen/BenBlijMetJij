@@ -8,35 +8,44 @@
 
     <div class="col-md-6">
 
-        <form>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="inputName" class="">Naam</label>
-                    <input type="text" class="form-control" id="inputName" placeholder="Jan Janssen">
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="inputPhone">*Telefoon nummer </label>
-                    <input type="text" class="form-control" id="inputPhone" placeholder="06-XXXXXXXX">
-                </div>
+        <div class="container box">
+            <h3 >How Send an Email in Laravel</h3><br />
+            @if (count($errors) > 0)
+             <div class="alert alert-danger">
+              <button type="button" class="close" data-dismiss="alert">×</button>
+              <ul>
+               @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+               @endforeach
+              </ul>
+             </div>
+            @endif
+            @if ($message = Session::get('success'))
+            <div class="alert alert-success alert-block">
+             <button type="button" class="close" data-dismiss="alert">×</button>
+                    <strong>{{ $message }}</strong>
             </div>
-            <div class="form-group">
-                <label for="inputEmail">Email</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="Plaat hier uw email-adres">
-            </div>
-            <div class="form-group">
-                <label for="inputSubject">Onderwerp</label>
-                <input type="text" class="form-control" id="inputSubject" placeholder="Vraag, afspraak">
-            </div>
+            @endif
+            <form method="post" action="{{url('sendemail/send')}}">
+             {{ csrf_field() }}
+             <div class="form-group">
+              <label>Enter Your Name</label>
+              <input type="text" name="name" class="form-control" value="" />
+             </div>
+             <div class="form-group">
+              <label>Enter Your Email</label>
+              <input type="text" name="email" class="form-control" value="" />
+             </div>
+             <div class="form-group">
+              <label>Enter Your Message</label>
+              <textarea name="message" class="form-control"></textarea>
+             </div>
+             <div class="form-group">
+              <input type="submit" name="send" class="btn btn-info" value="Send" />
+             </div>
+            </form>
 
-            <div class="form-group">
-                <label for="inputMessage">Bericht</label>
-                <textarea class="form-control" id="inputMessage" placeholder="Type hier uw bericht"
-                    rows="12"></textarea>
-            </div>
-
-
-            <button type="Versturen" class="btn btn-primary">Versturen</button>
-        </form>
+           </div>
 
         <small class="form-text text-muted">
             Velden met een * zijn optioneel
