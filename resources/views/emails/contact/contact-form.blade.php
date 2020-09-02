@@ -1,11 +1,13 @@
 @component('mail::message')
 
-# Thank you for your message
+# Contact formulier website
 
-<strong>Name</strong> {{ $data['name'] }}
-<strong>Email</strong> {{ $data['email'] }}
+<strong>Naam:</strong> {{ $data['name'] }}
+<strong>Email:</strong> {{ $data['email'] }}
+<strong>Telefoonnummer:</strong> {{ $data['tel'] }}
 
-<strong>Message</strong>
+<strong>Bericht:</strong>
 
 {{ $data['message'] }}
+
 @endcomponent
