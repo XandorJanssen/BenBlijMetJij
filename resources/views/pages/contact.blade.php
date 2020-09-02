@@ -8,39 +8,44 @@
 
     <div class="col-md-6">
 
-        <form>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="inputName" class="">Naam</label>
-                    <input type="text" class="form-control" id="inputName" placeholder="Jan Janssen">
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="inputPhone">*Telefoon nummer </label>
-                    <input type="text" class="form-control" id="inputPhone" placeholder="06-XXXXXXXX">
-                </div>
-            </div>
+        @if( ! session()->has('message'))
+        <form action="{{ route('contact.store') }}" method="POST">
             <div class="form-group">
-                <label for="inputEmail">Email</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="Plaat hier uw email-adres">
-            </div>
-            <div class="form-group">
-                <label for="inputSubject">Onderwerp</label>
-                <input type="text" class="form-control" id="inputSubject" placeholder="Vraag, afspraak">
+                <label for="name">Name</label>
+                <input type="text" name="name" value="{{ old('name') }}" class="form-control">
+                <div>{{ $errors->first('name') }}</div>
             </div>
 
             <div class="form-group">
-                <label for="inputMessage">Bericht</label>
-                <textarea class="form-control" id="inputMessage" placeholder="Type hier uw bericht"
-                    rows="12"></textarea>
+                <label for="email">Email</label>
+                <input type="text" name="email" value="{{ old('email') }}" class="form-control">
+                <div>{{ $errors->first('email') }}</div>
             </div>
 
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"
+                          class="form-control">{{ old('message') }}</textarea>
+                <div>{{ $errors->first('message') }}</div>
+            </div>
 
-            <button type="Versturen" class="btn btn-primary">Versturen</button>
+            @csrf
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
         </form>
 
         <small class="form-text text-muted">
             Velden met een * zijn optioneel
         </small>
+    @endif
+
+    @if(session()->has('message'))
+        <div class="alert alert-success" role="alert">
+            <strong>Success</strong> {{ session()->get('message') }}
+        </div>
+    @endif
+
+
     </div>
 
     <div class="col-md-4">

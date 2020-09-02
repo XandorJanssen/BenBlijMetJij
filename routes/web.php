@@ -13,11 +13,14 @@
 
 Route::get('/', 'PagesController@index');
 
-//Route::get('/behandelingen', 'PagesController@treatments');
+
 Route::get('/behandelingen', array('as' => 'behandelingen', 'uses' => 'PagesController@treatments'));
 
 Route::get('/tarieven', 'PagesController@prices');
 Route::get('/overons', 'PagesController@about');
-Route::get('/contact', 'PagesController@contact');
+
+
+Route::get('contact', 'ContactFormController@create')->name('contact.create');
+Route::post('contact', 'ContactFormController@store')->name('contact.store');
 
 
