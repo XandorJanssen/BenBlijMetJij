@@ -11,9 +11,6 @@
 
 <div class="card shadow-sm">
     <div class="card-body">
-
-
-
         <h1><a class="anchor" name="Tekeningen"></a>Tekeningen</h1>
         <p>
             Kinderen zijn nog puur; leven vanuit hun gevoel en staan dicht bij wie ze werkelijk zijn.

@@ -21,30 +21,29 @@
     </div>
 </div>
 
-<!-- START THE FEATURETTES -->
 
-
-
-<div class="row featurette  row-left ">
-    <div class="col-md-7 card shadow-sm">
-        <h1 class="featurette-heading fancy">Over ons</h1>
-        <p></p>
-        <p class="lead">
-            Wij zijn Willianne en Vera van Schaik, moeder en dochter, beiden hoogsensitief (HSP).
-            Wij zijn ervan overtuigd dat alles met elkaar verbonden is en kijken naar het grotere geheel (holistische benadering).
-            Samen hebben wij een praktijk opgericht om volwassenen en kinderen te helpen hun eigen kracht te ervaren.
-        </p>
-        <p class="lead mb-0"><a href="/overons" class="font-weight-bold">Lees verder...</a></p>
+<div class="row row_margin_fix">
+    <div class="col-md-8 col-sm-12 card text-center">
+        <div class="my-auto">
+            <h1 class="card-title fancy">Over ons</h1>
+            <p class="card-text">
+                Wij zijn Willianne en Vera van Schaik, moeder en dochter, beiden hoogsensitief (HSP).
+                Wij zijn ervan overtuigd dat alles met elkaar verbonden is en kijken naar het grotere geheel
+                (holistische benadering).
+                Samen hebben wij een praktijk opgericht om volwassenen en kinderen te helpen hun eigen kracht te
+                ervaren.
+            </p>
+            <a href="/overons" class="font-weight-bold">Lees meer...</a>
+        </div>
     </div>
-    <div class="col-md-5">
-        <img src="/images/W&V.jpg" class="featurette-image img-fluid mx-auto shadow-sm" width="500"
-            height="500">
+
+    <div class="col-md-4 col-sm-12 image_padding_fix">
+        <img src="/images/W&V.jpg" class="featurette-image img-fluid mx-auto shadow-sm" width="500" height="500">
     </div>
 </div>
 
 <hr class="featurette-divider">
 
-<!-- /END THE FEATURETTES -->
 
 <div class="card-group shadow-sm">
 
@@ -112,7 +111,5 @@
         </div>
     </div>
 </div>
-
-
 
 @endsection

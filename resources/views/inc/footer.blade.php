@@ -3,7 +3,7 @@
 <footer class="text-muted">
     <div class="container ">
         <p class="float-right">
-            <a href="#">Terug naar het begin</a>
+            <a href="#">Terug naar het begin van de pagina</a>
         </p>
         <p> Copyright &copy; {{ now()->year }}, BenBlijMetJij, alle rechten voorbehouden. </p>
 

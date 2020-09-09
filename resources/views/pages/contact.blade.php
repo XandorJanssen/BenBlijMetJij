@@ -6,7 +6,7 @@
 
 <div class="row">
 
-    <div class="col-md-6">
+    <div class="col-md-8">
 
         @if( ! session()->has('message'))
         <form action="{{ route('contact.store') }}" method="POST">
@@ -30,8 +30,8 @@
 
             <div class="form-group">
                 <label for="message">Bericht</label>
-                <textarea name="message" id="message" cols="30" rows="10"
-                          class="form-control">{{ old('message') }}</textarea>
+                <textarea name="message" id="message" cols="30" rows="7"
+                    class="form-control">{{ old('message') }}</textarea>
                 <div class="text-danger">{{ $errors->first('message') }}</div>
             </div>
 
@@ -43,13 +43,13 @@
         <small class="form-text text-muted">
             Velden met een * zijn optioneel
         </small>
-    @endif
+        @endif
 
-    @if(session()->has('message'))
+        @if(session()->has('message'))
         <div class="alert alert-success" role="alert">
             <strong>Success</strong> {{ session()->get('message') }}
         </div>
-    @endif
+        @endif
 
 
     </div>
