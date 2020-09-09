@@ -23,7 +23,8 @@ class ContactFormController extends Controller
         ],
         [
          'name.required'=> 'Het veld naam is verplicht',
-         'email.required'=> 'Het veld email is verplicht',
+         'email.required'=> 'Het veld e-mailadres is verplicht',
+         'email.email'=> 'Vul een geldig e-mailadres in',
          'message.required'=> 'Het veld bericht is verplicht',
         ]);
 
@@ -32,6 +33,6 @@ class ContactFormController extends Controller
         Mail::to('benblijmetjij@gmail.com')->send(new ContactFormMail($data));
 
         return redirect('contact')
-            ->with('message', 'Bedankt voot uw bericht, we nemen contact met u op.');
+            ->with('message', 'Bedankt voor uw bericht, wij nemen z.s.m contact met u op.');
     }
 }

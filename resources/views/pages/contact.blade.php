@@ -17,7 +17,7 @@
             </div>
 
             <div class="form-group">
-                <label for="email">Email</label>
+                <label for="email">E-mailadres</label>
                 <input type="text" name="email" value="{{ old('email') }}" class="form-control">
                 <div class="text-danger">{{ $errors->first('email') }}</div>
             </div>
@@ -47,7 +47,7 @@
 
         @if(session()->has('message'))
         <div class="alert alert-success" role="alert">
-            <strong>Success</strong> {{ session()->get('message') }}
+            <strong>Verzonden!</strong> {{ session()->get('message') }}
         </div>
         @endif
 
