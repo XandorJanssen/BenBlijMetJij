@@ -37,7 +37,7 @@
 
             @csrf
 
-            <button type="submit" class="btn btn-primary">Versturen</button>
+            <button type="submit" class="btn btn-success DarkGreen-background">Versturen</button>
         </form>
 
         <small class="form-text text-muted">
