@@ -50,6 +50,12 @@
                 </tr>
 
                 <tr>
+                    <th scope="row">Tekenen + ontspanningsmassage (intuïtief) volwassenen 30 minuten + tekening analyse* </th>
+                    <td>75 min</td>
+                    <td>€&nbsp;35,-</td>
+                </tr>
+
+                <tr>
                     <th scope="row">Massage + magnetiseren + chakra balans 60 minuten</th>
                     <td>75 min</td>
                     <td>€&nbsp;40,-</td>
