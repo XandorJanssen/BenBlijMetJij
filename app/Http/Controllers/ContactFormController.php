@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Mail\ContactFormMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use App\Rules\GoogleRecaptcha;
 
 class ContactFormController extends Controller
 {
@@ -19,13 +20,15 @@ class ContactFormController extends Controller
             'name' => 'required',
             'email' => 'required|email',
             'message' => 'required',
-            'tel' => 'nullable'
+            'tel' => 'nullable',
+            'g-recaptcha-response' => ['required', new GoogleRecaptcha]
         ],
         [
          'name.required'=> 'Het veld naam is verplicht',
          'email.required'=> 'Het veld e-mailadres is verplicht',
          'email.email'=> 'Vul een geldig e-mailadres in',
          'message.required'=> 'Het veld bericht is verplicht',
+         'g-recaptcha-response.required'=> 'Bevestig dat je geen robot bent',
         ]);
 
 
@@ -33,6 +36,6 @@ class ContactFormController extends Controller
         Mail::to('benblijmetjij@gmail.com')->send(new ContactFormMail($data));
 
         return redirect('contact')
-            ->with('message', 'Bedankt voor uw bericht, wij nemen z.s.m contact met u op.');
+            ->with('successs', 'Bedankt voor uw bericht, wij nemen z.s.m contact met u op.');
     }
 }

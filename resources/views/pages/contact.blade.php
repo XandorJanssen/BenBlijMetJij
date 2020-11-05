@@ -8,7 +8,7 @@
 
     <div class="col-md-8">
 
-        @if( ! session()->has('message'))
+        @if( ! session()->has('successs'))
         <form action="{{ route('contact.store') }}" method="POST">
             <div class="form-group">
                 <label for="name">Naam</label>
@@ -35,6 +35,13 @@
                 <div class="text-danger">{{ $errors->first('message') }}</div>
             </div>
 
+
+            <p>
+                <div class="g-recaptcha" data-sitekey="6Ld4SN8ZAAAAAA7q8z-WY36RUYUI8OYFS2sFTwMz"></div>
+                <div class="text-danger">{{ $errors->first('g-recaptcha-response') }}</div>
+            </p>
+
+
             @csrf
 
             <button type="submit" class="btn btn-success DarkGreen-background">Versturen</button>
@@ -45,11 +52,13 @@
         </small>
         @endif
 
-        @if(session()->has('message'))
+        @if(session()->has('successs'))
         <div class="alert alert-success" role="alert">
-            <strong>Verzonden!</strong> {{ session()->get('message') }}
+            <strong>Verzonden!</strong> {{ session()->get('successs') }}
         </div>
         @endif
+
+
 
 
     </div>

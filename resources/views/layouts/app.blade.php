@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
         <script src="/js/app.js"></script>
         <script src="https://kit.fontawesome.com/bc6fb75518.js" crossorigin="anonymous"></script>
+        <script src="https://www.google.com/recaptcha/api.js"></script>
 
     <title>Ben blij met jij</title>
     <link rel="icon"  href="{!! asset('images/Logo.ico') !!}" type="image/ico" />
