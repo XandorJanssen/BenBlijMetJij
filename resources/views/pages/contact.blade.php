@@ -37,10 +37,9 @@
 
 
             <p>
-                <div class="g-recaptcha" data-sitekey="6Ld4SN8ZAAAAAA7q8z-WY36RUYUI8OYFS2sFTwMz"></div>
+                <div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}"></div>
                 <div class="text-danger">{{ $errors->first('g-recaptcha-response') }}</div>
             </p>
-
 
             @csrf
 
@@ -57,10 +56,6 @@
             <strong>Verzonden!</strong> {{ session()->get('successs') }}
         </div>
         @endif
-
-
-
-
     </div>
 
     <div class="col-md-4">
